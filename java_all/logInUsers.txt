@@ -1,0 +1,7 @@
+sandeep sainu
+sandeep ji
+If you have a small-ish file and you would like to read its entire contents in one pass,
+you can use the readAllBytes(Path) or readAllLines(Path, Charset) method.
+These methods take care of most of the work for you, such as opening and 
+closing the stream, but are not intended for handling large files.
+The following code shows how to use the readAllBytes method:
